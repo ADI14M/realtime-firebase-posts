@@ -6,7 +6,7 @@ import { getStorage } from "firebase/storage";
 
 // TODO: Replace these with your Firebase project config
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
+  apiKey: "YOUR_API_KEY",(elli nim APi key na Add madi and so on)
   authDomain: "YOUR_AUTH_DOMAIN",
   projectId: "YOUR_PROJECT_ID",
   storageBucket: "YOUR_STORAGE_BUCKET",
@@ -25,3 +25,4 @@ export const db = getFirestore(app);
 
 // Storage (for images)
 export const storage = getStorage(app);
+
